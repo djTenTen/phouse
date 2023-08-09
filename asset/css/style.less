@@ -1,0 +1,122 @@
+/********************************/
+/*	01. HTML DEFAULTS			*/
+/********************************/
+html, body {
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+a {
+	cursor: pointer;
+}
+
+canvas {
+	height: 100% !important;
+	width: 100% !important;
+}
+
+textarea {
+	resize: none;
+}
+
+@media print { * { display: none !important; } }
+
+/********************************/
+/*	02. THEME LAYOUT			*/
+/********************************/
+.aside {
+	.aside-body {
+		.nav {
+			.nav-label {
+				margin-top: 15px;
+				margin-bottom: 10px;
+			
+				&:first-of-type {
+					margin-top: 0px;
+				}
+			}
+
+			.nav-link {
+				cursor: pointer;
+	
+				i {
+					display: block;
+					font-size: 16px;
+					margin-right: 14px;
+					text-align: center;
+					width: 20px;
+				}
+			}
+
+			.nav-item {
+				&.show {
+					> ul {
+						margin-bottom: 10px;
+					}
+				}
+
+				> ul {
+					border-left: 1px solid rgba(72, 94, 144, 0.5);
+					margin-left: 10px;
+					padding-bottom: 0px;
+					padding-left: 23px;
+				}
+			}
+		}
+	}
+}
+
+.container {
+	max-width: none !important;
+	margin-bottom: 0px !important;
+}
+
+.btn-icon {
+	i {
+		width: 14px;
+		height: 14px;
+
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	&.btn-xs {
+		i {
+			width: 12px;
+			height: 12px;
+		}
+	}
+}
+
+.content {
+	height: auto;
+	position: relative;
+
+	.content-header {
+		background: #FFFFFF;
+		position: -webkit-sticky; /* Safari */
+		position: sticky;
+		top: 0;
+		z-index: 999;
+
+		width: 100%;
+	}
+}
+
+.panels {
+	> div {
+		display: none;
+
+		&.active {
+			display: block;
+		}
+	}
+}
+
+/********************************/
+/*	03. CUSTOM CLASS			*/
+/********************************/
+.no-wrap {
+	white-space: nowrap;
+}
