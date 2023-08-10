@@ -14,7 +14,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" type="image/x-icon" href="<?= site_url(); ?>asset/image/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="<?= site_url(); ?>asset/image/thepenthouse-logo-white.svg">
 	<!-- vendor css -->
 	<link href="<?= site_url(); ?>theme/lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 	<link href="<?= site_url(); ?>theme/lib/ionicons/css/ionicons.min.css" rel="stylesheet">

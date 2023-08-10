@@ -12,8 +12,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon -->
-	<link rel="shortcut icon" type="image/x-icon" href="<?= site_url(); ?>asset/image/favicon.png">
-	<title><?= $title;?> | The Penthouse</title>thepenthouse-logo-white.svg
+	<link rel="shortcut icon" type="image/x-icon" href="<?= site_url(); ?>asset/image/thepenthouse-logo-white.svg">
+	<title><?= $title;?> | The Penthouse</title>
 	
 	<!-- Vendor CSS -->
 	<link href="<?= site_url(); ?>vendor/fontawesome/css/all.min.css" rel="stylesheet">
@@ -149,7 +149,7 @@
 				</ul>
 			</li>
 			
-			<li class="nav-item"><a href="<?= site_url();?>module/payroll/daily-time-record.php" class="nav-link"><i class="fad fa-clock"></i> <span>Daily Time Record</span></a></li>
+			<!-- <li class="nav-item"><a href="" class="nav-link"><i class="fad fa-clock"></i> <span>Daily Time Record</span></a></li> -->
 
 			<li class="nav-item with-sub">
 				<a class="nav-link"><i class="fad fa-envelope-open-dollar"></i> <span>Payroll</span></a>

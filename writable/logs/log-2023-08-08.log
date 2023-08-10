@@ -1,0 +1,8 @@
+CRITICAL - 2023-08-08 11:21:32 --> Undefined array key "sessionID"
+in APPPATH\Models\Ajax_model.php on line 85.
+ 1 APPPATH\Models\Ajax_model.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sessionID"', 'C:\\Users\\Furniture House\\Dropbox\\01.Projects\\htdocs\\new\\admin.penthouse\\app\\Models\\Ajax_model.php', 85)
+ 2 APPPATH\Controllers\Ajax_controller.php(46): App\Models\Ajax_model->checkAuthentication()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax_controller->checkAuthentication()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
